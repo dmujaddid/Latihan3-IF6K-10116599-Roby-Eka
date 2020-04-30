@@ -8,6 +8,9 @@ import com.apps.rizkiadam.R;
 
 public class UserModel {
 
+    // Kamis 30 April 2020
+    // Robby Eka / 10116599
+
     private String username;
     private String password;
     private String phone;

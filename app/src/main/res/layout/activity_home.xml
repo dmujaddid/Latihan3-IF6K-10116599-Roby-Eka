@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lin_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@color/colorPeterRiver"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src=""/>
+
+    <TextView
+        android:id="@+id/txt_tagline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/img_logo"
+        android:text="NGASUH"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/txt_tagline_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@+id/txt_tagline"
+        android:text="Siap Menjadi Orangtua Muda"
+        android:textSize="14dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/txtHallo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_tagline_desc"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="Hallo"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHallo"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="Rizki Adam Kurniawan"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_below="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:id="@+id/txt_logout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/bg_btn_masuk"
+        android:clickable="true"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="Logout"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
