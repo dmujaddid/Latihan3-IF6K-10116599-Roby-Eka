@@ -7,10 +7,10 @@
     android:layout_height="match_parent"
     android:background="@color/colorPeterRiver"
     android:padding="24dp"
-    tools:context=".LoginActivity">
+    tools:context="latihansharedpreferences.LoginActivity">
 
     <LinearLayout
-
+        android:id="@+id/lin_top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:src=""/>
+            android:src="@drawable/ic_child_friendly"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -67,6 +67,7 @@
             android:background="#ffffff" />
 
         <EditText
+            android:id="@+id/edt_login_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
@@ -82,7 +83,7 @@
             android:singleLine="true"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white"
-            android:textCursorDrawable=""
+            android:textCursorDrawable="@drawable/cursor_color"
             android:textSize="14sp"/>
 
         <EditText
@@ -104,7 +105,7 @@
             android:singleLine="true"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white"
-            android:textCursorDrawable=""
+            android:textCursorDrawable="@drawable/cursor_color"
             android:textSize="14sp" />
 
         <TextView
@@ -139,7 +140,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="50dp"
             android:layout_marginRight="50dp"
-            android:background=""
+            android:background="@drawable/bg_btn_masuk"
             android:clickable="true"
             android:gravity="center"
             android:text="Masuk"
@@ -147,12 +148,14 @@
             android:textStyle="bold"/>
 
         <TextView
+            android:id="@+id/txt_login_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
             android:gravity="center_horizontal"
             android:text="Belum punya akun? Yuk daftar"
             android:textColor="@android:color/white"/>

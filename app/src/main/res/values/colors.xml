@@ -10,6 +10,6 @@
     <color name="greenPressed">#32af5a</color>
 
     <color name="colorWhite">#ffffff</color>
-    <color name="yellowRegister">ffc800</color>
-    <color name="yellowPressed">fa6432</color>
+    <color name="yellowRegister">#ffc800</color>
+    <color name="yellowPressed">#fa6432</color>
 </resources>

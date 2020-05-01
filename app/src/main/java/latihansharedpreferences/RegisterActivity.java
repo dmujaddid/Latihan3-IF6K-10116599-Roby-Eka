@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.apps.rizkiadam.latihansharedpreferences.model.UserModel;
+import com.apps.rizkiadam.R;
 
 import latihansharedpreferences.utils.Preferences;
 
