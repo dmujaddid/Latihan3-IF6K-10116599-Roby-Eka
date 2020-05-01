@@ -46,7 +46,6 @@ public class RegisterActivity extends AppCompatActivity {
                 validasiRegister();
             }
         });
-
     }
 
     private void declareView() {
@@ -71,7 +70,6 @@ public class RegisterActivity extends AppCompatActivity {
         String password = edtPassWord.getText().toString();
         String rePassword = edtRePassWord.getText().toString();
         String phoneNumber = edtPhoneNumber.getText().toString();
-
 
         // Jika form user kosong atau memenuhi kriteria di Method cekUser() maka, Set error di Form-
         // User dengan menset variable fokus dan error di Viewnya juga cancel menjadi true*/
@@ -115,7 +113,6 @@ public class RegisterActivity extends AppCompatActivity {
             startActivity(new Intent(getBaseContext(), HomeActivity.class));
             finish();
         }
-
     }
 
     // True jika parameter user sama dengan data user yang terdaftar dari Preferences */
@@ -127,8 +124,5 @@ public class RegisterActivity extends AppCompatActivity {
     private boolean cekPassword(String password, String repassword){
         return password.equals(repassword);
     }
-
-
-
 
 }
