@@ -16,8 +16,17 @@ import latihansharedpreferences.utils.Preferences;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    // Kamis 30 April 2020
-    // Robby Eka / 10116599
+    // Tanggal  : Kamis, 30 April 2020
+    // Descjob  : Mengerjakan kelas Register, UserModel, Preferences, UtilStatic
+
+    // Tanggal  : Jumat, 1 Mei 2020
+    // Descjob  : Mengerjakan kelas LoginActivity, HomeActivity
+    //            layout, drawable, values
+
+    // NIM      : 10116599
+    // Nama     : Robby Eka
+    // Kelas    : IF6K
+
 
     private TextView txtMasuk;
     private EditText edtUserName;
